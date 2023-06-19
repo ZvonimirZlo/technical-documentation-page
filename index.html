@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Python</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header id="header">
+              <a href="#"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Python_logo_and_wordmark.svg/1920px-Python_logo_and_wordmark.svg.png" alt="Logo" width="200"></a>
+        </header>
+              
+          
+          <ul1>
+              <li><a class="nav-link" href="#History">History</a></li>
+              <li><a class="nav-link" href="#Naming">Naming</a></li>
+              <li><a class="nav-link" href="#Syntax_and_semantics">Syntax and semantics</a></li>
+              <li><a class="nav-link" href="#Typing">Typing</a></li>
+              <li><a class="nav-link" href="#Programming_examples">Programming examples</a></li>
+              <li><a class="nav-link" href="#Design_philosophy_and_features">Design philosophy and features</a></li>
+          </ul1>
+      </nav>
+      
+      
+      <main id="main-doc">
+        
+        <section class="main-section" id="History">
+          <header>History</header>
+          <p>
+            Python was conceived in the late 1980s by Guido van Rossum at Centrum Wiskunde & Informatica (CWI) in the Netherlands as a successor to ABC programming language, which was inspired by SETL, capable of exception handling and interfacing with the Amoeba operating system. Its implementation began in December 1989. Van Rossum shouldered sole responsibility for the project, as the lead developer, until 12 July 2018, when he announced his "permanent vacation" from his responsibilities as Python's Benevolent Dictator For Life, a title the Python community bestowed upon him to reflect his long-term commitment as the project's chief decision-maker. He now shares his leadership as a member of a five-person steering council. In January 2019, active Python core developers elected Brett Cannon, Nick Coghlan, Barry Warsaw, Carol Willing and Van Rossum to a five-member "Steering Council" to lead the project. Guido van Rossum has since then withdrawn his nomination for the 2020 Steering council.
+          </p>
+          <br>
+      
+         <section class="main-section" id="Naming">
+          <header>Naming</header>
+           <p>Python's name is derived from the British comedy group Monty Python, whom Python creator Guido van Rossum enjoyed while developing the language. Monty Python references appear frequently in Python code and culture; for example, the metasyntactic variables often used in Python literature are spam and eggs instead of the traditional foo and bar. The official Python documentation also contains various references to Monty Python routines.</p>
+      <p>
+      The prefix Py- is used to show that something is related to Python. Examples of the use of this prefix in names of Python applications or libraries include Pygame, a binding of SDL to Python (commonly used to create games); PyQt and PyGTK, which bind Qt and GTK to Python respectively; and PyPy, a Python implementation originally written in Python.
+        </p>
+        <br>
+        
+        
+      
+         <section class="main-section" id="Syntax_and_semantics">
+          <header>Syntax and semantics</header>
+           <p>Python is meant to be an easily readable language. Its formatting is visually uncluttered, and it often uses English keywords where other languages use punctuation. Unlike many other languages, it does not use curly brackets to delimit blocks, and semicolons after statements are optional. It has fewer syntactic exceptions and special cases than C or Pascal.
+           </p>
+           <br>
+           
+         <section class="main-section" id="Typing">
+          <header>Typing</header>
+           <p>Python uses duck typing and has typed objects but untyped variable names. Type constraints are not checked at compile time; rather, operations on an object may fail, signifying that the given object is not of a suitable type. Despite being dynamically-typed, Python is strongly-typed, forbidding operations that are not well-defined (for example, adding a number to a string) rather than silently attempting to make sense of them.</p>
+      <p>
+      Python allows programmers to define their own types using classes, which are most often used for object-oriented programming. New instances of classes are constructed by calling the class (for example, SpamClass() or EggsClass()), and the classes are instances of the metaclass type (itself an instance of itself), allowing metaprogramming and reflection.
+           </p>
+           <p>
+      Before version 3.0, Python had two kinds of classes: old-style and new-style. The syntax of both styles is the same, the difference being whether the class object is inherited from, directly or indirectly (all new-style classes inherit from object and are instances of type). In versions of Python 2 from Python 2.2 onwards, both kinds of classes can be used. Old-style classes were eliminated in Python 3.0.
+           </p>
+           <p>
+      The long-term plan is to support gradual typing and from Python 3.5, the syntax of the language allows specifying static types but they are not checked in the default implementation, CPython. An experimental optional static type checker named mypy supports compile-time type checking
+           </p>
+           <br>
+      
+         <section class="main-section" id="Programming_examples">
+          <header>Programming examples</header>
+           <p>Hello world program:
+             <br>
+             <code>print('Hello, world!')</code>
+            </p>
+           <p>Program to calculate the factorial of a positive integer:
+             <br>
+             
+             <code>n = int(input('Type a number, and its factorial will be printed: '))</code>
+             <br>
+             <code>if n < 0:raise ValueError('You must enter a non negative integer')</code>
+               <br>
+               <code>fact = 1</code>
+               <br>
+               <code>for i in range(2, n + 1):
+                 fact *= i</code>
+               <br>
+               <code>print(fact)</code>
+           </p>
+             <br>
+             
+          <section class="main-section" id="Design_philosophy_and_features">
+            <header>Design philosophy and features</header>
+            <ul>
+              <li>Beautiful is better than ugly</li>
+              <li>Explicit is better than implicit</li>
+              <li>Simple is better than complex</li>
+              <li>Complex is better than complicated</li>
+              <li>Readability counts</li>
+            </ul>
+       
+       </main>
+      
+</body>
+</html>

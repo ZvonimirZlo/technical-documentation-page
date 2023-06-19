@@ -1,0 +1,60 @@
+@media { (max-width: 800px)
+
+}
+  
+nav{
+  float: left;
+  position: fixed;
+  font-size: 20px;
+}
+main{
+  text-align: left;
+  margin-left: 330px;
+  margin-right: 120px;
+  font-size: 20px;
+  margin-top: 60px;
+  background-color:#add3e1;
+  border-radius:8px;
+}
+  code{
+    background: #ffff94;
+    font-size: 18px;
+    border-radius: 5px;
+  }
+  /* Change the link color on hover */
+  #navbar a:hover{
+    color: red;
+  }
+  ul1{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #909090;
+  
+  }
+  li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #555;
+  background-color: rgb(211,211,211);
+  border-radius: 10px;
+  font-weight:bold;
+  }
+  li a:hover {
+  background-color: #555;
+    color: white;
+}
+header{
+  font-weight: bold;
+  font-size:30px
+}
+html{
+  scroll-behavior:smooth;
+}
+
+  
+}  
